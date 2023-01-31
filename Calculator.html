@@ -1,0 +1,42 @@
+<html>
+
+<head>Calculator
+    <title>Calculator</title>
+</head>
+
+<body>
+    <input id="val1" />
+    <input id="val2" />
+    <br>
+    <button id="addButton">Add</button>
+    <button id="subtractButton">Subtract</button>
+    <button id="multiplicationButton">Multiplication</button>
+    <p id="Result"> </p>
+</body>
+
+<script>
+    document.getElementById("addButton").onclick = addTwoNumbers;
+    document.getElementById("subtractButton").onclick = subtractTwoNumbers;
+    document.getElementById("multiplicationButton").onclick = multiplicationTwoNumbers;
+
+    function addTwoNumbers() {
+        let a = document.getElementById("val1").value;
+        let b = document.getElementById("val2").value;
+        let result = parseInt(a) + parseInt(b);
+        document.getElementById("Result").innerHTML = result;
+    }
+    function subtractTwoNumbers() {
+        let a = document.getElementById("val1").value;
+        let b = document.getElementById("val2").value;
+        let result = parseInt(a) - parseInt(b);
+        document.getElementById("Result").innerHTML = result;
+    }
+    function multiplicationTwoNumbers() {
+        let a = document.getElementById("val1").value;
+        let b = document.getElementById("val2").value;
+        let result = parseInt(a) * parseInt(b);
+        document.getElementById("Result").innerHTML = result;
+    }
+</script>
+
+</html>
