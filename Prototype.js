@@ -1,4 +1,4 @@
-// Prototype is an object which has been associated with function & object(available only in java)
+// Prototype is an object which has been associated with function & object(available only in javascript)
 // We can add property at the later stage of program
 
 // function is like class only

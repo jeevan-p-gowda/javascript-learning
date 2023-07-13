@@ -1,0 +1,3 @@
+Can declare any variable,function and object without return type
+Can create an object for function, where we can call members present in function 
+Can introduce a member, function using Prototype
