@@ -28,7 +28,7 @@ Employee.prototype.sal = 10000;
 
 // Can create function to the class
 Employee.prototype.display = function () {
-console.log(this.id,thsi.name,this.sal)
+console.log(this.id,this.name,this.sal)
 }
 
 emp1 = new Employee(101, "David")
